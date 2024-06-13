@@ -1,0 +1,32 @@
+{
+  "name": "trabalhofinalppiadssemi",
+  "version": "1.0.0",
+  "description": "desenvolvimento de sistema de adoção de animais (PetShop)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clovisluizsjr/TrabalhoFinalPPIADSSemi.git"
+  },
+  "keywords": [
+    "trabalho",
+    "final",
+    "petshot"
+  ],
+  "author": "Clovis Luiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clovisluizsjr/TrabalhoFinalPPIADSSemi/issues"
+  },
+  "homepage": "https://github.com/clovisluizsjr/TrabalhoFinalPPIADSSemi#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "path": "^0.12.7"
+  }
+}
