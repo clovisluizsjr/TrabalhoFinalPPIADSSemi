@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoção</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container m-5">
+        <form method="POST" action='/listarAdocao' class="border row g-3 needs-validation" novalidate>
+            <legend>Interesse em adoção</legend>
+            <div class="col-md-4">
+                <label for="animal" class="form-label">Animal:</label>
+                <select name="animal">
+                    <option value="valor1">Valor 1</option>
+                    <option value="valor2" selected>Valor 2</option>
+                    <option value="valor3">Valor 3</option>
+                  </select>
+            </div>
+
+            <div class="col-md-4">
+                <label for="interessado" class="form-label">Interessado:</label>
+                <select name="interessado">
+                    <option value="valor1">Valor 1</option>
+                    <option value="valor2" selected>Valor 2</option>
+                    <option value="valor3">Valor 3</option>
+                  </select>
+            </div>
+
+            <div class="col-12 mb-3">
+                <button class="btn btn-primary" type="submit">Cadastrar</button>
+                <a class="btn btn-secondary" href="/">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
